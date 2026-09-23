@@ -1,51 +1,93 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            strong{
-                font-style: italic;
-                color: blue;
-            }
-        </style>
-    </head>
-    <h1>
-        My Favorate Planet
-    </h1>
-    <h2>
-        Mars
-    </h2>
-    <p>Mars is the <b>fourth</b> planet from Sun.</p>
-    <p>I think Mars is <i>one of the most interesting planets in our solar</i> ststem.</p>
-    <hr>
-    <h3>Some Facts</h3>
-    <p>
-        Mars has 2 moons:<br>Phobos<br>Deimos
-    </p>
-    <p>
-        The average distance from Mars to the Sun is about 2.28 &times; 10<sup>8</sup> km.
-    </p>
-    <p>
-        Water is H<sub>2</sub>O.
-    </p>
-    <hr>
-    <h3>Why I Like Mars</h3>
-    <p>Mars is cold and dry,</p>
-    <p>
-        but scientist are still exploring it.
-    </p>
-    <p>
-        <b>
-            Maybe be humans will visit Mars one day!
-        </b>
-    </p>
-    <hr>
-    <h3>
-        Keep Exploring
-    </h3>
-    <p>
-        <b>Remember:</b> science begins with curiosity.
-    </p>
-    <p>
-        I <strong>really</strong> want to see humans explore Mars in the future.
-        <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> has sent many missions to study Mars.</p>
-    </p>
-    </html>
+<head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+.title{
+    width: auto;
+    padding: 50px;
+    background-color: darksalmon;
+    border: 1px solid black ;
+    text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.box {
+  width: 50%;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.centered-image {
+  display: block;    /* 將圖片從行內元素轉為區塊元素 */
+  margin-left: auto; /* 左邊距設為自動 */
+  margin-right: auto;/* 右邊距設為自動 */
+  width: auto;        /* 選擇性設定寬度，不設定則預設大小 */
+  height: 500px;
+}
+
+
+img{
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="title">
+    <h1>Lian Weeeeeeeeb</h1>
+</div>
+<a href="https://www.instagram.com/lian.fln__v7/">
+<img src="C876236E-E296-459D-AED4-BA545E3587C7.jpg"  class="centered-image"></a>
+<div class="row">
+  <div class="box" style="background-color:lightpink;">
+    <h2>About Me</h2>
+    <p>Im good guy</p>
+  </div>
+  <div class="box" style="background-color: brown;">
+<h2>My Brithday</h2>
+<strong>Mouth</strong>
+<p>Feb</p>
+<strong>Date</strong>
+<p>First</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="box" style="background-color: orange;">
+    <h2>My Talent</h2>
+    <ul>
+            <li>origami</li>
+            <li>dancing</li>
+            <li>singing</li>
+        </ul>
+  </div>
+  <div class="box" style="background-color: gray;">
+    <h2>Recent Performance</h2>
+    <ol>
+            <li>11/12 Mid-term Performance</li>
+            <li>11/18 Campus Concert</li>
+        </ol>
+  </div>
+</div>
+<div class="title"style="background-color: yellow;">
+        <h2>Connect Information</h2>
+        <a href="mailto:t114590026@ntut.edu.tw">t114590026@ntut.edu.tw</a>
+</div>
+
+</body>
+</html>
