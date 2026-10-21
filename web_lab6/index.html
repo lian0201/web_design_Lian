@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Lian</title>
+    <!-- 引入外部 CSS 檔案 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- 頂部導覽列 -->
+        <div class="bar">
+            <div class="bar-title">Lian</div>
+            <div class="bar-sel">
+                <a href="#about-me">About Me</a>
+                <a href="#hobby">Hobby & Lifestyle</a>
+                <a href="#information">Information</a>
+                <a href="#table">Weekly Schedule</a>
+            </div>
+        </div>
+
+        <!-- Hero 視覺橫幅 -->
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Hello, I'm Lian.</h1>
+                <p>NTUT Computer Science Student & Tech Enthusiast</p>
+            </div>
+        </section>
+
+        <!-- About Me 區塊 -->
+        <div id="about-me">
+            <h1>About Me</h1>
+            <p>
+                <img src="161847.jpg" class="img-right" alt="Profile Picture">
+                ->Taipei / Kaohsiung<br>
+                ->NTUT CSIE| 國立臺北科技大學 資訊工程學系<br>
+                ->Building web apps & learning C++ / Web Development<br>
+            </p>
+        </div>
+
+        <!-- Hobby 區塊 -->
+        <div id="hobby">
+            <h1>Hobby & Lifestyle</h1>
+            <p>
+                <img src="C876236E-E296-459D-AED4-BA545E3587C7.jpg" class="img-left" alt="Hobby Image">
+                <strong>日常攝影(Life & Shots):</strong>
+                <br>透過鏡頭記錄台北與高雄的城市光影、校園生活與值得留念的瞬間。
+
+            </p>
+        </div>
+
+        <!-- Information 區塊 -->
+        <div id="information">
+            <h1>Information</h1>
+            <div class="image-gallery">
+                <div class="container">
+                    <img src="C876236E-E296-459D-AED4-BA545E3587C7.jpg" alt="Avatar" class="image">
+                    <div class="overlay-lay">
+                        <div class="text-lay">ME</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="161847.jpg" alt="Avatar" class="image">
+                    <div class="overlay-lay">
+                        <div class="text-lay">ME</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="4B12A1A2-219D-44A2-B5BF-FB95EF7E0FB4.jpg" alt="Avatar" class="image">
+                    <div class="overlay-lay">
+                        <div class="text-lay">also ME</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table 區塊 -->
+        <div id="table">
+            <h1>Weekly Schedule</h1>
+
+            <!-- 表格一：行程規劃 -->
+            <table>
+                <thead>
+                    <tr class="t_title">
+                        <th scope="col">Time</th>
+                        <th scope="col">Mon</th>
+                        <th scope="col">Tue</th>
+                        <th scope="col">Wed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">09:10 - 10:00</th>
+                        <td>微積分 (Calculus)</td>
+                        <td>大一英文 (English)</td>
+                        <td>計算機概論 (CS Intro)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10:10 - 11:00</th>
+                        <!-- C++ 實習跨越兩個時段 (rowspan="2") -->
+                        <td rowspan="2" class="highlight">C++ 程式設計實習</td>
+                        <td>普通物理 (Physics)</td>
+                        <td>離散數學 (Discrete Math)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11:10 - 12:00</th>
+                        <!-- 週一被上面的 rowspan 佔據，此處不需寫週一的 <td> -->
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13:10 - 15:00</th>
+                        <td>通識課程 (General Education)</td>
+                        <td>網頁前端設計 (Web Design)</td>
+                        <td>自習與專案開發 (Coding Time)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
